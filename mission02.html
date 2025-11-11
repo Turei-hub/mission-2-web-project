@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mission 2 Project</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="mission02.css">
+</head>
+<body>
+  <header>
+    <div class="container header-content">
+      <div class="logo">
+        <i class="fas fa-rocket"></i>
+        <h1>Mission 2</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><button data-section="mission1">Mission 1</button></li>
+          <li><button data-section="mission2">Mission 2</button></li>
+          <li><button data-section="html">HTML</button></li>
+          <li><button data-section="css">CSS</button></li>
+          <li><button data-section="js">JavaScript</button></li>
+          <li><button data-section="python">Python</button></li>
+          <li><button data-section="missionX">Mission X</button></li>
+        </ul>
+      </nav>
+      <div class="theme-toggle">
+        <input type="checkbox" id="theme-toggle" class="toggle-checkbox">
+        <label for="theme-toggle" class="toggle-label">
+          <i class="fas fa-sun"></i>
+          <i class="fas fa-moon"></i>
+          <span class="toggle-slider"></span>
+        </label>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Mission 1 Section -->
+    <section id="mission1" class="section active">
+      <div class="section-header">
+        <h2>Mission 1</h2>
+        <p>Exploring the Benefits of a Tech Career</p>
+      </div>
+      
+      <div class="card-grid">
+        <div class="card">
+          <div class="card-img">
+            <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Software Development">
+          </div>
+          <div class="card-content">
+            <h3>Software Development</h3>
+            <p>Creating applications and systems that run on computers and other devices.</p>
+            <a href="https://www.w3schools.com/" class="btn">Learn More</a>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-img">
+            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Data Science">
+          </div>
+          <div class="card-content">
+            <h3>Data Science</h3>
+            <p>Extracting insights from data using statistics, computer science, and domain expertise.</p>
+            <a href="https://www.w3schools.com/" class="btn">Learn More</a>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-img">
+            <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Cybersecurity">
+          </div>
+          <div class="card-content">
+            <h3>Cybersecurity</h3>
+            <p>Protecting systems, networks, and data from cyber threats.</p>
+            <a href="https://www.w3schools.com/" class="btn">Learn More</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="content-section">
+        <h3>My Journey</h3>
+        <p>Over the course of delivering a nine-slide presentation on Exploring the Benefits of a Tech Career, I gained a deeper understanding of the industry and how technology shapes our lives. The presentation gave a broad overview of opportunities in tech, from software development to data science, cybersecurity, AI, and more.</p>
+        <p>What stood out most was the huge variety of career options. Technology offers many disciplines to suit different skills and personalities. Creative minds may enjoy front-end or UX design, while analytical thinkers might lean toward data science or machine learning. This diversity makes the industry dynamic and inclusive.</p>
+      </div>
+      
+      <!-- Animation Section -->
+      <div class="animation-container">
+        <div class="animated-element"></div>
+      </div>
+    </section>
+
+    <!-- Mission 2 Section -->
+    <section id="mission2" class="section">
+      <div class="section-header">
+        <h2>Mission 2</h2>
+        <p>Self-Reflection and Career Alignment</p>
+      </div>
+      
+      <div class="content-section">
+        <h3>Early Milestones</h3>
+        <p>One of the earliest milestones in this learning journey was a project that was to be submitted by the end of week three. The task involved producing a Word document that explored the different types of career paths available within the technology sector.</p>
+        
+        <h3>Discovering Interests</h3>
+        <p>Because I have always enjoyed coding, I found myself naturally drawn toward web development. Creating websites combines both technical knowledge and creativity, and it felt like a natural extension of the work I had already been doing with HTML, CSS, and JavaScript.</p>
+        
+        <h3>The Power of Python</h3>
+        <p>Python stood out to me because of its versatility and its reputation as one of the most popular languages in modern technology. I learned that Python is far more than just another coding tool — it is a language that opens doors to multiple areas of the tech world.</p>
+      </div>
+      
+      <div class="progress-container">
+        <h3>My Progress</h3>
+        <div class="progress-item">
+          <div class="progress-label">
+            <span>HTML & CSS</span>
+            <span>85%</span>
+          </div>
+          <div class="progress-bar">
+            <div class="progress-fill" data-width="85"></div>
+          </div>
+        </div>
+        
+        <div class="progress-item">
+          <div class="progress-label">
+            <span>JavaScript</span>
+            <span>70%</span>
+          </div>
+          <div class="progress-bar">
+            <div class="progress-fill" data-width="70"></div>
+          </div>
+        </div>
+        
+        <div class="progress-item">
+          <div class="progress-label">
+            <span>Python</span>
+            <span>60%</span>
+          </div>
+          <div class="progress-bar">
+            <div class="progress-fill" data-width="60"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HTML Section -->
+    <section id="html" class="section">
+      <div class="section-header">
+        <h2>HTML Journey</h2>
+        <p>The Foundation of Web Development</p>
+      </div>
+      
+      <div class="content-section">
+        <h3>Beginnings of My Coding Journey</h3>
+        <p>The first part of my journey into coding began back in March of this year. Looking back, it is incredible to see how much I have learned in such a short amount of time and how each step has built upon the last.</p>
+        
+        <h3>Understanding HTML's Role</h3>
+        <p>Through learning HTML, I came to understand that it is not a programming language but a markup language. Its primary purpose is to structure content and provide meaning to the information on a webpage.</p>
+        
+        <img src="https://as2.ftcdn.net/jpg/05/14/79/43/1000_F_514794372_cZJc4gNTASOFs8MIwJouER5ZxfcT2Hyj.jpg" alt="HTML Structure">
+      </div>
+      
+      <!-- Transmission Section -->
+      <div class="transmission-container">
+        <div class="transmission-header">
+          <i class="fas fa-satellite-dish"></i>
+          <h3>HTML Transmission</h3>
+        </div>
+        <div class="transmission-content" id="html-transmission">
+          <!-- Transmission lines will be added by JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- CSS Section -->
+    <section id="css" class="section">
+      <div class="section-header">
+        <h2>CSS Journey</h2>
+        <p>Styling the Web with Creativity</p>
+      </div>
+      
+      <div class="content-section">
+        <h3>Growing My Understanding of CSS</h3>
+        <p>As of this morning, Friday, 15 August 2025, my understanding of CSS (Cascading Style Sheets) has grown significantly. At first glance, CSS seemed like nothing more than a way to add color and adjust fonts, but I now recognize it as a powerful tool that gives websites their identity and personality.</p>
+        
+        <h3>Separation of Content and Design</h3>
+        <p>One of the key aspects I have learned is that CSS allows for the separation of content from design. HTML is responsible for the structure and content of a webpage — things like headings, paragraphs, images, and links.</p>
+        
+        <img src="https://as1.ftcdn.net/v2/jpg/16/29/26/26/1000_F_1629262607_SHtuXiuXTY3Bqp2S8iXYT6AJQhaVIRx1.jpg" alt="CSS Styling">
+      </div>
+    </section>
+
+    <!-- JavaScript Section -->
+    <section id="js" class="section">
+      <div class="section-header">
+        <h2>JavaScript Journey</h2>
+        <p>Adding Interactivity to the Web</p>
+      </div>
+      
+      <div class="content-section">
+        <h3>Adding Interactivity</h3>
+        <p>One of the key aspects I have learned is that JavaScript is capable of implementing complex features that go far beyond simple visuals. For example, developers can use it to add animations that make a site feel more fluid and modern.</p>
+        
+        <h3>The Front-End Trinity</h3>
+        <p>I also understand that JavaScript is an essential component of what is often referred to as the "front-end trinity" of web development: HTML, CSS, and JavaScript.</p>
+        
+        <img src="https://as2.ftcdn.net/v2/jpg/14/16/89/75/1000_F_1416897518_qKxu84vClnRDimWpOqEnBz8JF2I7LHRR.jpg" alt="JavaScript Code">
+      </div>
+      
+      <!-- Interactive Demo -->
+      <div class="interactive-demo">
+        <h3>Interactive Demo</h3>
+        <div class="demo-container">
+          <div class="color-box" id="colorBox"></div>
+          <div class="controls">
+            <button id="changeColorBtn">Change Color</button>
+            <button id="resetColorBtn">Reset</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Python Section -->
+    <section id="python" class="section">
+      <div class="section-header">
+        <h2>Python Journey</h2>
+        <p>Versatile Programming for Multiple Domains</p>
+      </div>
+      
+      <div class="content-section">
+        <h3>My Current Understanding of Python</h3>
+        <p>My current understanding of Python is that it is one of the most approachable yet powerful programming languages in modern technology. At first, I was intimidated by the thought of learning it.</p>
+        
+        <h3>Readable and Beginner-Friendly</h3>
+        <p>One of the key aspects I have learned is how Python's syntax is often close to plain English. This means that even without years of experience, I can often read a piece of code and understand what it is doing.</p>
+        
+        <img src="https://as1.ftcdn.net/v2/jpg/01/16/75/94/1000_F_116759427_l4AGnmouXXUnW4YGKHJrmYHoMrBpjh0L.jpg" alt="Python Code">
+      </div>
+      
+      <!-- Python Features Grid -->
+      <div class="features-grid">
+        <div class="feature-card">
+          <i class="fas fa-globe"></i>
+          <h4>Web Development</h4>
+          <p>Django and Flask frameworks</p>
+        </div>
+        <div class="feature-card">
+          <i class="fas fa-chart-bar"></i>
+          <h4>Data Science</h4>
+          <p>Pandas, NumPy, and Matplotlib</p>
+        </div>
+        <div class="feature-card">
+          <i class="fas fa-robot"></i>
+          <h4>AI & ML</h4>
+          <p>TensorFlow, PyTorch, scikit-learn</p>
+        </div>
+        <div class="feature-card">
+          <i class="fas fa-cogs"></i>
+          <h4>Automation</h4>
+          <p>Scripting for repetitive tasks</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mission X Section -->
+    <section id="missionX" class="section">
+      <div class="section-header">
+        <h2>Mission X</h2>
+        <p>The Culmination of My Learning Journey</p>
+      </div>
+      
+      <div class="content-section">
+        <h3>The Mission at Hand</h3>
+        <p>The Mission X project has been a transformative experience in my coding journey. It has provided a structured path to explore various aspects of technology, from understanding different career paths to mastering essential programming languages.</p>
+        
+        <h3>Reflection and Growth</h3>
+        <p>Each mission within the project has built upon the last, creating a comprehensive learning experience that goes beyond just coding. It has encouraged me to reflect on my motivations, align my skills with my values, and envision a future where I can contribute meaningfully to the world through technology.</p>
+      </div>
+      
+      <!-- Skills Assessment -->
+      <div class="skills-assessment">
+        <h3>Skills Assessment</h3>
+        <div class="assessment-container">
+          <div class="skill-category">
+            <h4>Frontend Development</h4>
+            <div class="skill-list">
+              <div class="skill-item">
+                <span>HTML</span>
+                <div class="skill-level">
+                  <div class="skill-fill" data-level="90"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span>CSS</span>
+                <div class="skill-level">
+                  <div class="skill-fill" data-level="85"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span>JavaScript</span>
+                <div class="skill-level">
+                  <div class="skill-fill" data-level="75"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="skill-category">
+            <h4>Backend Development</h4>
+            <div class="skill-list">
+              <div class="skill-item">
+                <span>Python</span>
+                <div class="skill-level">
+                  <div class="skill-fill" data-level="70"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span>Node.js</span>
+                <div class="skill-level">
+                  <div class="skill-fill" data-level="50"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Simple Counter Demo -->
+<div class="simple-demo">
+    <h3>Simple Counter Demo</h3>
+    <p>Current Count: <span id="counterDisplay">0</span></p>
+    <button onclick="increaseCounter()">Click to Count +1</button>
+    <button onclick="resetCounter()">Reset Counter</button>
+</div>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <p>&copy; 2025 Mission X Project. All rights reserved.</p>
+      <div class="social-links">
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="mission02.js"></script>
+</body>
+</html>
