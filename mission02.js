@@ -1,6 +1,6 @@
 // mission02.js
 
-// Declare variables using let or const
+// Declare variables using const
 const themeToggle = document.getElementById('theme-toggle');
 const body = document.body;
 const sections = document.querySelectorAll('.section');
@@ -125,7 +125,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const savedTheme = localStorage.getItem('theme');
   const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
 
-  // Use of comparative operators (===, ||, && stops checking after first false)
+  // Use of comparative operators (===strict equality comparison, ||, && stops checking after first false)
   if (savedTheme === 'dark' || (!savedTheme && prefersDark)) {
     applyTheme(true);
     themeToggle.checked = true;
